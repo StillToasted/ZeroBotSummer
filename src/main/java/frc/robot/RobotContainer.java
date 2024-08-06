@@ -68,9 +68,6 @@ public class RobotContainer {
     driverLeftStickY, driverLeftStickX, driverRightStickX, -1.0));
     
   }
-
-      // Create the "About" tab last so it will be last in the list.
-    public final ShuffleboardTab aboutTab = Shuffleboard.getTab("About");
      
     private final JoystickButton driverYButton = new JoystickButton( m_driverController, XboxController.Button.kY.value);
     private final JoystickButton driverAButton = new JoystickButton( m_driverController, XboxController.Button.kA.value);
