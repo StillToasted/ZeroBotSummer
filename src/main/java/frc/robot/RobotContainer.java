@@ -59,7 +59,7 @@ public class RobotContainer {
             private final DoubleSupplier operatorRightStickX = () -> MathUtil.applyDeadband(m_driverController.getRawAxis(
               XboxController.Axis.kRightX.value), Constants.DriveConstants.kDriveDeadband);
               
-  /** The container for the robot. Contains subsystems, OI devices, and commands. */
+  /** container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
     // Configure the trigger bindings
     configureButtonBindings();
