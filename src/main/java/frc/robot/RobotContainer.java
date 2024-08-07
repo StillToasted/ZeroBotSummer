@@ -63,7 +63,7 @@ public class RobotContainer {
   public RobotContainer() {
     // Configure the trigger bindings
     configureButtonBindings();
-    // Configure ddefault commands
+    // Configure default commands
     m_robotDrive.setDefaultCommand(new TeleopDriveCommand(m_robotDrive,
     driverLeftStickY, driverLeftStickX, driverRightStickX, -1.0));
     
